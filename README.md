@@ -1,29 +1,70 @@
-## Hardhat
-* Hardhat (like most Ethereum libraries and tools) is written in Javascript.
-* One feature of Hardhat is that it comes with its own built-in Ethereum network called the Hardhat Network. 
-* You can think of this as your private testnet that runs on your local machine. By default, it will mine a block with each transaction that it receives, in order and without any delays. 
-* It is backed by the @ethereumjs/vm EVM implementation, the same one used by Ganache and Remix.
+# Getting Started with Create React App
 
-## Adding Hardhat to MetaMask Wallet:
-* Network name - Hardhat Network
-* New RPC URL - http://127.0.0.1:8545/
-* Chain ID - 31337
-* Currency symbol - ETH
-* Block explorer URL (Optional) - leave it empty
-<img width="600" alt="Screenshot 2023-02-27 at 12 46 52 AM" src="https://user-images.githubusercontent.com/92979885/221433818-1787ef8e-2dd5-4ef5-8e09-2c8336c31c76.png">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Deploying a Smart Contract to Hardhat Network:
-<img width="600" alt="Screenshot 2023-02-27 at 12 52 16 AM" src="https://user-images.githubusercontent.com/92979885/221433779-65a4b54a-80fc-4a25-b366-573b995d3790.png">
-<img width="600" alt="Screenshot 2023-02-27 at 12 49 02 AM" src="https://user-images.githubusercontent.com/92979885/221433927-7cd86eaa-a555-449f-9a68-19cf54c0135e.png">
+## Available Scripts
 
-## Connecting Wallet with React to display Contact Address & Application Binary Interface (ABI):
-<img width="600" alt="C59_Q2_Swap-Nova" src="https://user-images.githubusercontent.com/92979885/221434010-8ec0ad69-71f6-4f04-8af6-b6d92728893e.png">
+In the project directory, you can run:
 
+### `npm start`
 
-## Outcome: 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* Run Hardhat Network and deploy smart contracts to it.
-* Initialise a Hardhat project directory.
-* Import Hardhat Network as well as Hardhat Network accounts into MetaMask.
-* Connect a MetaMask wallet to a webpage.
-* Use Ethers.js to read values from a deployed smart contract.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
