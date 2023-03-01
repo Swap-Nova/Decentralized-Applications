@@ -12,7 +12,15 @@
 * Block explorer URL (Optional) - leave it empty
 <img width="600" alt="Screenshot 2023-02-27 at 12 46 52 AM" src="https://user-images.githubusercontent.com/92979885/221433818-1787ef8e-2dd5-4ef5-8e09-2c8336c31c76.png">
 
+## Hardhat Network Terminal
+```solidity
+npx hardhat node
+```
+
 ## Deploying a Smart Contract to Hardhat Network:
+```solidity
+npx hardhat run scripts/deploy.js --network localhost
+```
 <img width="600" alt="Screenshot 2023-02-27 at 12 52 16 AM" src="https://user-images.githubusercontent.com/92979885/221433779-65a4b54a-80fc-4a25-b366-573b995d3790.png">
 <img width="600" alt="Screenshot 2023-02-27 at 12 49 02 AM" src="https://user-images.githubusercontent.com/92979885/221433927-7cd86eaa-a555-449f-9a68-19cf54c0135e.png">
 
@@ -29,7 +37,5 @@
 * Import Hardhat Network as well as Hardhat Network accounts into MetaMask.
 * Connect a MetaMask wallet to a webpage.
 * Use Ethers.js to read values from a deployed smart contract.
-
-* Use Ethers.js to read values from a deployed smart contract
-* Use Ethers.js to modify state of a blockchain
-* Use React to build a frontend that allows users to interact with your deployed smart contract
+* Use Ethers.js to modify state of a blockchain.
+* Use React to build a frontend that allows users to interact with your deployed smart contract.
