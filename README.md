@@ -19,6 +19,8 @@
 ## Connecting Wallet with React to display Contact Address & Application Binary Interface (ABI):
 <img width="600" alt="C59_Q2_Swap-Nova" src="https://user-images.githubusercontent.com/92979885/221434010-8ec0ad69-71f6-4f04-8af6-b6d92728893e.png">
 
+## Get User Quest Status
+<img width="600" alt="C59_Q3_Swap-Nova" src="https://user-images.githubusercontent.com/92979885/222038166-6f0ad6be-bae6-4245-8896-800b19d9ab20.png">
 
 ## Outcome: 
 
@@ -27,3 +29,7 @@
 * Import Hardhat Network as well as Hardhat Network accounts into MetaMask.
 * Connect a MetaMask wallet to a webpage.
 * Use Ethers.js to read values from a deployed smart contract.
+
+* Use Ethers.js to read values from a deployed smart contract
+* Use Ethers.js to modify state of a blockchain
+* Use React to build a frontend that allows users to interact with your deployed smart contract
